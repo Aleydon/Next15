@@ -1,4 +1,4 @@
-<h2 align='center'>:earth_americas: Next 14 Template :earth_americas:</h2>
+<h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
 
 <p align="center">
   <br>
