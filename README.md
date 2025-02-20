@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img width="900" src="./assets/next14.png" alt="logo of Next14 repository">
+  <img width="900" src="./assets/next14.png" alt="logo of Next15 repository">
   <br>
   <br>
 </p>
@@ -18,7 +18,7 @@ NodeJs: :link: https://nodejs.org/en/
 1. Clone this repo
 
 ```sh
-git clone https://github.com/Aleydon/Next14.git
+git clone https://github.com/Aleydon/Next15.git
 ```
 
 2. Install NPM packages
