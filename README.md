@@ -33,6 +33,12 @@ npm install or yarn install
 npm run dev or yarn dev
 ```
 
+4. Run conventional commits
+
+```sh
+npm run commit or yarn commit
+```
+
 ---
 
 <h2>Template configuration:</h2>
@@ -43,6 +49,8 @@ npm run dev or yarn dev
 - Typescript for typing. :link: https://www.typescriptlang.org/
 - Tailwind Css for styling components. :link: https://tailwindcss.com/
 - HuskyJs for automatically lint your commit messages, code, and run tests upon committing or pushing. :link: https://typicode.github.io/husky/
+- Commitlint for linting commit messages. :link: https://commitlint.js.org/
+- Commitizen for enforcing standardized commit conventions. :link: https://commitizen-tools.github.io/commitizen/
 
 ---
 
