@@ -1,6 +1,4 @@
 <h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
-<<<<<<< HEAD
-=======
 
 <p align="center">
 <img alt="next-logo" src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" />
@@ -11,7 +9,6 @@
 <img alt="prisma-logo" src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" />
 <img alt="jest-logo" src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff" />
 </p>
->>>>>>> Aleydon
 
 <p align="center">
   <br>
