@@ -7,6 +7,8 @@
   <br>
 </p>
 
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#)
+
 ## :pushpin: Requirements: :pushpin:
 
 NodeJs: :link: https://nodejs.org/en/
