@@ -1,14 +1,14 @@
 <h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
 
-<div align="center">
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
+<p align="center">
+<img src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" />
 [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)](#)
 [![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff)](#)
-</div>
+</p>
 
 <p align="center">
   <br>
