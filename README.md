@@ -154,3 +154,6 @@ export const Large: StoryObj<TextProps> = {
   }
 };
 ```
+<p align="center">
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/roberto-venancio/))
+</p>
