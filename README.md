@@ -158,6 +158,6 @@ export const Large: StoryObj<TextProps> = {
 
 <p align="center">
 <a href="https://www.linkedin.com/in/roberto-venancio/" target="_blank">
-  <img alt="linkedin" src="ttps://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" 
+  [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#)
 </a>
 </p>
