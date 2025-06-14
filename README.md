@@ -1,4 +1,7 @@
-<h2 align='center'>:earth_americas: Next 14 Template :earth_americas:</h2>
+<h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
+
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#)
+[![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff)](#)
 
 <p align="center">
   <br>
@@ -6,8 +9,6 @@
   <br>
   <br>
 </p>
-
-[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#)
 
 ## :pushpin: Requirements: :pushpin:
 
