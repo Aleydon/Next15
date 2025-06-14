@@ -1,4 +1,17 @@
 <h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
+<<<<<<< HEAD
+=======
+
+<p align="center">
+<img alt="next-logo" src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" />
+<img alt="react-logo" src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" />
+<img alt="typescript-logo" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff" />
+<img alt="javascript-logo" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" />
+<img alt="tailwindcss-logo" src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" />
+<img alt="prisma-logo" src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" />
+<img alt="jest-logo" src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff" />
+</p>
+>>>>>>> Aleydon
 
 <p align="center">
   <br>
@@ -24,19 +37,19 @@ git clone https://github.com/Aleydon/Next15.git
 2. Install NPM packages
 
 ```sh
-npm install or yarn install
+npm install
 ```
 
 3.  Run this project
 
 ```sh
-npm run dev or yarn dev
+npm run dev
 ```
 
 4. Run conventional commits
 
 ```sh
-npm run commit or yarn commit
+npm run commit
 ```
 
 ---
