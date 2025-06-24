@@ -4,8 +4,8 @@ import Text from './components/Text';
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-linear-to-r from-blue-400 to-purple-300 ">
-      <h1 className="text-4xl text-bold">Hello World</h1>
+    <div className="flex h-screen flex-col items-center justify-center bg-linear-to-r from-blue-400 to-purple-300">
+      <h1 className="text-bold text-4xl">Hello World</h1>
       <Text>&darr;</Text>
 
       <Link

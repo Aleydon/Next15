@@ -40,13 +40,13 @@ npm install
 3.  Run this project
 
 ```sh
-npm run dev 
+npm run dev
 ```
 
 4. Run conventional commits
 
 ```sh
-npm run commit 
+npm run commit
 ```
 
 ---
