@@ -1,13 +1,14 @@
-<h2 align='center'>:earth_americas: Next 15 Template :earth_americas:</h2>
+<h1 align="center">🚀 Next.js 15 Template 🚀</h1>
 
 <p align="center">
-<img alt="next-logo" src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" />
-<img alt="react-logo" src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" />
-<img alt="typescript-logo" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff" />
-<img alt="javascript-logo" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" />
-<img alt="tailwindcss-logo" src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" />
-<img alt="prisma-logo" src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" />
-<img alt="jest-logo" src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="Prisma" src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+  <img alt="Jest" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
 </p>
 
 <p align="center">
@@ -17,101 +18,165 @@
   <br>
 </p>
 
-## :pushpin: Requirements: :pushpin:
+## 📖 About The Project
 
-NodeJs: :link: https://nodejs.org/en/
-
----
-
-#### :arrow_forward: Get Started:
-
-1. Clone this repo
-
-```sh
-git clone https://github.com/Aleydon/Next15.git
-```
-
-2. Install NPM packages
-
-```sh
-npm install
-```
-
-3.  Run this project
-
-```sh
-npm run dev
-```
-
-4. Run conventional commits
-
-```sh
-npm run commit
-```
+This is a robust template for **Next.js 15** projects, pre-configured with a modern development stack to ensure productivity, code quality, and scalability. It includes tools for databases, testing, component documentation, and much more.
 
 ---
 
-<h2>Template configuration:</h2>
+## ✨ Key Features
 
-- Jest + Testing Library for automated testing. :link: https://jestjs.io/ + https://testing-library.com/
-- Storybook for component documentation. :link: https://storybook.js.org/
-- Eslint + Prettier for code standardization and formatting. :link: https://eslint.org/ + https://prettier.io/
-- Typescript for typing. :link: https://www.typescriptlang.org/
-- Tailwind Css for styling components. :link: https://tailwindcss.com/
-- HuskyJs for automatically lint your commit messages, code, and run tests upon committing or pushing. :link: https://typicode.github.io/husky/
-- Commitlint for linting commit messages. :link: https://commitlint.js.org/
-- Commitizen for enforcing standardized commit conventions. :link: https://commitizen-tools.github.io/commitizen/
-
----
-
-<h2>Tests + Storybook:</h2>
-
-- How to run tests:
-
-```sh
-npm run test or npm run test:watch
-```
-
-It has an example of tests with Jest + Testing-Library in _src/app/page.spec.tsx_
-
-```ts
-import { render, screen } from '@testing-library/react';
-
-import Page from './page';
-
-describe('Page Component', () => {
-  it('should get the text hello world', () => {
-    render(<Page />);
-    const hello = screen.getByText('Hello World');
-    expect(hello).toBeDefined();
-  });
-
-  it('should get the text hello world in the component s heading', () => {
-    render(<Page />);
-    const heading = screen.getByRole('heading', {
-      name: 'Hello World'
-    });
-    expect(heading).toBeInTheDocument();
-  });
-
-  it('must get the link from the page component', () => {
-    render(<Page />);
-    const link = screen.getByRole('link', { name: 'github.com/Aleydon' });
-    expect(link).toBeDefined();
-    expect(link).toHaveAttribute('target', '_blank');
-    expect(link).toHaveAttribute('aria-label', 'github.com/Aleydon');
-  });
-});
-
-```
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Database:** [PostgreSQL](https://www.postgresql.org/) with [Prisma ORM](https://www.prisma.io/)
+- **Containerization:** [Docker](https://www.docker.com/)
+- **Testing:** [Jest](https://jestjs.io/) & [Testing Library](https://testing-library.com/)
+- **Component Documentation:** [Storybook](https://storybook.js.org/)
+- **Code Quality:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
+- **Standardized Commits:** [Commitizen](https://commitizen-tools.github.io/commitizen/), [Commitlint](https://commitlint.js.org/) & [Husky](https://typicode.github.io/husky/)
 
 ---
 
-- How to run storybook:
+## 🚀 Getting Started
 
-```sh
-npm run storybook or yarn storybook
-```
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/) (version 18 or higher)
+- [Docker](https://www.docker.com/get-started)
+
+### Steps
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/Aleydon/Next15.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```sh
+   cd Next15
+   ```
+
+3. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+
+4. **Set up environment variables:**
+   - Rename the `enviroment-example.env` file to `.env`.
+   - Fill in the required environment variables in the `.env` file.
+
+5. **Start the Docker environment:**
+   - This command will build and start the PostgreSQL container.
+
+   ```sh
+   npm run docker:start
+   ```
+
+6. **Run the database migrations:**
+   - This command will create the database tables based on your Prisma schema.
+
+   ```sh
+   npm run prisma:migrate
+   ```
+
+7. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+---
+
+## 📜 Available Scripts
+
+| Script            | Description                                                     |
+| ----------------- | --------------------------------------------------------------- |
+| `dev`             | Starts the Next.js development server.                          |
+| `build`           | Builds the application for production.                          |
+| `start`           | Starts a production server.                                     |
+| `lint`            | Runs ESLint to analyze and fix the code.                        |
+| `docker:start`    | Starts the services defined in `docker-compose.yml`.            |
+| `prisma:migrate`  | Runs Prisma migrations to update the database.                  |
+| `prisma:generate` | Generates the Prisma Client based on your schema.               |
+| `prisma:studio`   | Opens Prisma Studio to view and edit your data.                 |
+| `test`            | Runs the unit and integration tests.                            |
+| `test:watch`      | Runs the tests in watch mode.                                   |
+| `commit`          | Starts the Commitizen assistant to create standardized commits. |
+| `storybook`       | Starts Storybook to view and develop components.                |
+| `build-storybook` | Builds Storybook for production.                                |
+
+---
+
+## 🐳 Docker
+
+The development environment uses Docker to manage the PostgreSQL database.
+
+- **Start the container:**
+  ```sh
+  npm run docker:start
+  ```
+  This command will build and start the database container in the background.
+
+---
+
+## 💿 Prisma
+
+Prisma is used as an ORM to interact with the database.
+
+- **Apply migrations:**
+
+  ```sh
+  npm run prisma:migrate
+  ```
+
+  Creates and applies migrations to the database based on `schema.prisma`.
+
+- **Generate Prisma Client:**
+
+  ```sh
+  npm run prisma:generate
+  ```
+
+  Generates or updates the Prisma Client whenever `schema.prisma` is modified.
+
+- **Open Prisma Studio:**
+  ```sh
+  npm run prisma:studio
+  ```
+  Opens a visual interface in the browser to view and manage the database data.
+
+---
+
+## 🧪 Testing
+
+This project uses **Jest** and **Testing Library** for testing.
+
+- To run the tests, execute:
+  ```sh
+  npm run test
+  ```
+- To run the tests in watch mode:
+  ```sh
+  npm run test:watch
+  ```
+
+A test example can be found in `src/app/page.spec.tsx`.
+
+---
+
+## 🎨 Storybook
+
+Visualize and develop your components in isolation with **Storybook**.
+
+- To start Storybook:
+  ```sh
+  npm run storybook
+  ```
+
+A story example can be found in `src/app/components/Text/text.stories.tsx`.
 
 <p align="center">
   <br>
@@ -119,38 +184,3 @@ npm run storybook or yarn storybook
   <br>
   <br>
 </p>
-
-also has an example of using Storybook in the Text component in _src/app/components/Text/text.stories.tsx_
-
-```ts
-import type { Meta, StoryObj } from '@storybook/react';
-
-import Text, { type TextProps } from '.';
-
-const text: Meta<typeof Text> = {
-  component: Text,
-  title: 'Components/Text'
-};
-
-export default text;
-
-export const Small: StoryObj<TextProps> = {
-  args: {
-    size: 'small',
-    children: 'Small Text'
-  }
-};
-
-export const Medium: StoryObj<TextProps> = {
-  args: {
-    size: 'medium',
-    children: 'Medium Text'
-  }
-};
-export const Large: StoryObj<TextProps> = {
-  args: {
-    size: 'large',
-    children: 'Large Text'
-  }
-};
-```
