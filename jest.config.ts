@@ -12,6 +12,7 @@ const config: Config = {
   testEnvironment: 'jsdom',
   // Add more setup options before each test is run
   setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
+  watchPathIgnorePatterns: ['postgres-data'],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': 'ts-jest'
   }
