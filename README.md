@@ -38,6 +38,16 @@ This is a robust template for **Next.js 15** projects, pre-configured with a mod
 
 ---
 
+## 🌿 Branches
+
+This project has multiple branches to showcase different database configurations:
+
+- **`master`**: The main branch, configured with **Prisma ORM**.
+- **`Aleydon`**: A development branch, also configured with **Prisma ORM**.
+- **`Drizzle`**: This branch is configured with **Drizzle ORM**.
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
