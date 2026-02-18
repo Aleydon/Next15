@@ -28,3 +28,7 @@
 - Avoid unnecessary re-renders.
 - Use React Server Components when appropriate.
 - Use dynamic imports for heavy components.
+
+## Testing
+
+- Always create tests before modifying/creating components, following the TDD methodology.
