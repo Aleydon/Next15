@@ -5,8 +5,10 @@ import Text from './components/Text';
 export default function Page() {
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-linear-to-r from-blue-400 to-purple-300">
-      <h1 className="text-bold text-4xl">Hello World</h1>
-      <Text>&darr;</Text>
+      <h1 className="text-bold text-4xl">Next.js Template</h1>
+      <Text>
+        <span className="arrow-bounce">&darr;</span>
+      </Text>
 
       <Link
         className="cursor-pointer underline"
@@ -14,7 +16,7 @@ export default function Page() {
         target="_blank"
         aria-label="github.com/Aleydon"
       >
-        Github Template
+        My Github
       </Link>
     </div>
   );

@@ -5,10 +5,10 @@ export interface TextProps {
   children?: React.ReactNode;
 }
 
-export default function Text({ size = 'large', children }: TextProps) {
+export function Text({ size = 'large', children }: TextProps) {
   return (
     <span
-      className={clsx('bold', {
+      className={clsx('font-bold', {
         'text-base': size === 'small',
         'text-xl': size === 'medium',
         'text-3xl': size === 'large'
@@ -18,3 +18,5 @@ export default function Text({ size = 'large', children }: TextProps) {
     </span>
   );
 }
+
+export default Text;
