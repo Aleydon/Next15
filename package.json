@@ -17,7 +17,9 @@
     "prepare": "husky install",
     "commit": "eslint . --fix --ext .tsx,.ts && prettier --write .  && git add . && npx cz",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "type-check": "tsc --noEmit",
+    "apply:instructions": "ts-node scripts/apply_github_instructions.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^6.12.0",

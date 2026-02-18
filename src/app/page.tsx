@@ -14,7 +14,7 @@ export default function Page() {
         target="_blank"
         aria-label="github.com/Aleydon"
       >
-        Github Template
+        My Github
       </Link>
     </div>
   );
