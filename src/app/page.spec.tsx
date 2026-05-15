@@ -3,17 +3,15 @@ import { render, screen } from '@testing-library/react';
 import Page from './page';
 
 describe('Page Component', () => {
-  it('should get the text hello world', () => {
+  it('should get the text My Github', () => {
     render(<Page />);
-    const hello = screen.getByText('Hello World');
+    const hello = screen.getByText('My Github');
     expect(hello).toBeDefined();
   });
 
-  it('should get the text hello world in the component s heading', () => {
+  it('should get the text My Github in the component s heading', () => {
     render(<Page />);
-    const heading = screen.getByRole('heading', {
-      name: 'Hello World'
-    });
+    const heading = screen.getByText('My Github');
     expect(heading).toBeInTheDocument();
   });
 
